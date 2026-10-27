@@ -1,3 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* index.html css */
+
+.projects{
+    margin: 1em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-content: center;
+}
+
+.prctc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prctc img{
+    width: 100vw;
+    height: 100vh;
+    outline: none;
+    border: 0.5px solid black;
+}
+
+.prctc .text-link{
+    margin: 0.5em;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-link:link{
+    color: blue;
+}
+
+.text-link:visited{
+    color: red;
+}
+
+.text-link:hover{
+    color: green;
+    
+}
+
 img{
     width: 100%;
     max-width: 400px;
@@ -36,12 +88,7 @@ span{
 }
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+/* tutorial-profile-card.hmtl css */
 
 .profile-card img{
     width: 100px;
@@ -152,6 +199,8 @@ span{
     border: 2px solid transparent; }
 }
 
+/* prctc-profile-card.html css */
+
 .profile-card-practice{
     display: flex;
     flex-direction: column;
@@ -235,6 +284,8 @@ span{
     align-items: center;
 }
 
+/* tutorial-contact-us.html css */
+
 .contact-body{
     width: 100vw;
     height: 100vh;
@@ -299,10 +350,15 @@ span{
     border: none;
     outline: none;
     cursor: pointer;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4.75em;
 }
 
 button:hover{
     background: rgba(0,0,0,0.5);
 
 }
+
