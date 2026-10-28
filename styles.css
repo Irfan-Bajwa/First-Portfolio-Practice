@@ -362,3 +362,48 @@ button:hover{
 
 }
 
+
+/* Practice Contact-Us CSS */
+
+.contact-us-prctc-body{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-us-container{
+    width: 500px;
+    height: 600px;
+    display: grid;
+    place-content: center;
+}
+
+.heading{
+    background: red;
+    text-transform: capitalize;
+    display: grid;
+    place-content: center;
+}
+
+.heading h1{
+    font-family: 'Times New Roman', Times;
+}
+
+.contact-us-form{
+    background: purple;
+}
+
+.contact-input{
+    margin-bottom: 0.25em;
+    background: blue;
+}
+
+.contact-input input{
+    width: 100%;
+    height: 25px;
+}
+
+.contact-input textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
